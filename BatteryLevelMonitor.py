@@ -5,10 +5,10 @@ try:
   import time
 
   # function returning time in hh:mm:ss
-  def convertTime(seconds):
-      minutes, seconds = divmod(seconds, 60)
-      hours, minutes = divmod(minutes, 60)
-      return "%d:%02d:%02d" % (hours, minutes, seconds)
+  #def convertTime(seconds):
+  #    minutes, seconds = divmod(seconds, 60)
+  #    hours, minutes = divmod(minutes, 60)
+  #    return "%d:%02d:%02d" % (hours, minutes, seconds)
 
   # returns a tuple
   battery = psutil.sensors_battery()
